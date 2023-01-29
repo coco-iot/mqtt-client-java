@@ -4,7 +4,7 @@
 
   <groupId>com.luomor.mqtt</groupId>
   <artifactId>springboot</artifactId>
-  <version>1.0.0　-DinteractiveMode=false</version>
+  <version>1.0.0</version>
   <packaging>jar</packaging>
 
   <name>springboot</name>

@@ -1,5 +1,7 @@
 ```shell
-mvn archetype:generate -DgroupId=com.luomor.mqtt -DartifactId=springboot -Dversion=1.0.0　-DinteractiveMode=false
+mvn archetype:generate -DgroupId=com.luomor.mqtt -DartifactId=springboot -Dversion=1.0.0 -DinteractiveMode=false
+
+mvn archetype:generate -DgroupId=com.luomor.mqtt -DartifactId=springboot -Dversion=1.0.0
 
 tree -L 1
 
