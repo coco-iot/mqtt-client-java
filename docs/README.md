@@ -5,6 +5,10 @@ mvn archetype:generate -DgroupId=com.luomor.mqtt -DartifactId=springboot -Dversi
 
 tree -L 1
 
+/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home
+/usr/local/Cellar/openjdk/17
+"java.jdt.ls.java.home": "/usr/local/Cellar/openjdk/17"
+
 mvn archetype:generate -DgroupId=com.luomor.shop -DartifactId=shopingmall -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
 mvn archetype:generate -DgroupId=com.wong.shop -DartifactId=shopingmall -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
