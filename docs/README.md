@@ -23,6 +23,17 @@ archetype:generate：这是一个Maven插件，原型 archetype 插件是一个M
 -DinteractiveMode：是否使用交互模式：false不使用，直接创建；true使用，需要根据提示输入相关信息。
 ```
 
+```xml
+<dependency>
+      <!-- Import dependency management from Spring Boot -->
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-dependencies</artifactId>
+      <version>2.2.5.RELEASE</version>
+      <type>pom</type>
+      <scope>import</scope>
+</dependency>
+```
+
 ```
 Choose archetype:
 1: internal -> org.apache.maven.archetypes:maven-archetype-archetype (An archetype which contains a sample archetype.)
