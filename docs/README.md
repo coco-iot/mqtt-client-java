@@ -3,6 +3,8 @@ mvn archetype:generate -DgroupId=com.luomor.mqtt -DartifactId=springboot -Dversi
 
 mvn archetype:generate -DgroupId=com.luomor.mqtt -DartifactId=springboot -Dversion=1.0.0
 
+mvn org.apache.maven.plugins:maven-archetype-plugin:3.1.2:generate -DarchetypeArtifactId="spring-boot-blank-archetype" -DarchetypeGroupId="am.ik.archetype" -DarchetypeVersion="1.0.2.RELEASE" -DgroupId="com.luomor.mqtt" -DartifactId="demo"
+
 tree -L 1
 
 /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home
