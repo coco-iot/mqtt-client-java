@@ -112,7 +112,7 @@
                     </descriptorRefs>
                     <archive>
                             <manifest>
-                                <mainClass>com.mqtt.ServerMQTT</mainClass>
+                                <mainClass>com.luomor.mqtt.ServerMQTT</mainClass>
                             </manifest>
                     </archive>
                 </configuration>

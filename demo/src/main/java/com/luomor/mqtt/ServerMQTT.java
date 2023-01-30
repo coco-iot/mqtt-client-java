@@ -91,7 +91,4 @@ public class ServerMQTT {
             token.waitForCompletion();
             System.out.println("测试成功为true失败为false " + token.isComplete());
         }
-
-
-
 }
