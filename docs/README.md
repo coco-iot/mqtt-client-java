@@ -7,6 +7,8 @@ mvn org.apache.maven.plugins:maven-archetype-plugin:3.1.2:generate -DarchetypeAr
 
 tree -L 1
 
+mvn package
+
 /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home
 /usr/local/Cellar/openjdk/17
 "java.jdt.ls.java.home": "/usr/local/Cellar/openjdk/17"
