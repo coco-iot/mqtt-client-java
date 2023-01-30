@@ -17,9 +17,9 @@ public class PublishSample {
 		String topic = "stock";
 		String content = "hello 哈哈1 我来自客户端发送";
 		int qos = 1;
-		String broker = "tcp://47.106.138.26:1883";
-		String userName = "admin";
-		String password = "123456";
+		String broker = "tcp://49.232.6.131:1883";
+		String userName = "test";
+		String password = "test";
 		String clientId = "pubClient111";
 		// 内存存储
 		MemoryPersistence persistence = new MemoryPersistence();

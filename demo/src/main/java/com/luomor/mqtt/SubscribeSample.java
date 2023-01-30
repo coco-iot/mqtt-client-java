@@ -16,12 +16,12 @@ import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
  
 public class SubscribeSample {
 	public static void main(String[] args) throws MqttException {
-		String HOST = "tcp://47.106.138.26:1883";
+		String HOST = "tcp://49.232.6.131:1883";
 		String TOPIC = "stock";
 		int qos = 1;
 		String clientid = "subClient112";
-		String userName = "admin";
-		String passWord = "123456";
+		String userName = "test";
+		String passWord = "test";
 		try {
 			// host为主机名，test为clientid即连接MQTT的客户端ID，一般以客户端唯一标识符表示，MemoryPersistence设置clientid的保存形式，默认为以内存保存
 			MqttClient client = new MqttClient(HOST, clientid, new MemoryPersistence());
