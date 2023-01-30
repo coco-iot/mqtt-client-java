@@ -16,7 +16,7 @@ krwx783683sf.jar com.luomor.mqtt.PublishSample
 /usr/bin/env /Library/Internet\ Plug-I
 ns/JavaAppletPlugin.plugin/Contents/Home/bin/java -cp /var/folders/qj/f4hb_yks03d_
 nzkhjqcrvnmw0000gp/T/cp_bkm89q7xy8pzckrwx783683sf.jar com.luomor.mqtt.SubscribeSam
-ple 
+ple
 
 /usr/libexec/java_home
 ls /Library/Java/JavaVirtualMachines
