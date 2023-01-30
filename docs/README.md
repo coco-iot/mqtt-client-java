@@ -9,6 +9,10 @@ tree -L 1
 
 mvn package
 
+/usr/bin/env /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin/Contents/H
+ome/bin/java -cp /var/folders/qj/f4hb_yks03d_nzkhjqcrvnmw0000gp/T/cp_bkm89q7xy8pzc
+krwx783683sf.jar com.luomor.mqtt.PublishSample
+
 /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home
 /usr/local/Cellar/openjdk/17
 "java.jdt.ls.java.home": "/usr/local/Cellar/openjdk/17"
