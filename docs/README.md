@@ -21,6 +21,9 @@ ple
 /usr/libexec/java_home
 ls /Library/Java/JavaVirtualMachines
 
+Java: Configure Java Runtime
+java.home
+
 /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home
 /usr/local/Cellar/openjdk/17
 "java.jdt.ls.java.home": "/usr/local/Cellar/openjdk/17"
