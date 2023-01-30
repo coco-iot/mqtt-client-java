@@ -11,6 +11,9 @@ import org.eclipse.paho.client.mqttv3.MqttPersistenceException;
 import org.eclipse.paho.client.mqttv3.MqttTopic;
 import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 
+/**
+ * 发布信息代码
+ */
 public class ServerMQTT {
 
     public static void main(String[] args) throws MqttException {

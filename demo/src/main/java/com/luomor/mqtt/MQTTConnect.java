@@ -8,7 +8,8 @@ import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 
 /**
  * MQTT工具类操作
- *
+ * 订阅接收代码
+ * 
  */
 public class MQTTConnect {
 
