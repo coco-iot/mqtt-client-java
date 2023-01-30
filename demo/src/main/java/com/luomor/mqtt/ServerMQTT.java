@@ -20,7 +20,7 @@ public class ServerMQTT {
         server.message.setQos(2);
         server.message.setRetained(true);
         //编辑消息
-        server.message.setPayload("你的肉".getBytes());
+        server.message.setPayload("hello mqtt".getBytes());
         server.publish(server.topic , server.message);
         System.out.println(server.message.isRetained() + "------ratained状态");
     }
