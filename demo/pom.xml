@@ -60,7 +60,8 @@
             <version>${rest.assured.version}</version>
             <scope>test</scope>
         </dependency>
-
+        
+        <!-- MQTT依赖 -->
         <dependency>
             <groupId>org.eclipse.paho</groupId>
             <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
