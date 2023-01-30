@@ -26,7 +26,7 @@ public class ServerMQTT {
     }
 
         //MQTT安装的服务器地址和端口号
-        public static final String HOST = "tcp://localhost:1883";
+        public static final String HOST = "tcp://49.232.6.131:1883";
         //定义一个主题
         public static final String TOPIC = "test";
         //定义MQTT的ID，可以在MQTT服务配置中指定
@@ -34,8 +34,8 @@ public class ServerMQTT {
 
         private MqttClient client;
         private MqttTopic topic; //用户和密码
-        private String userName = "zhny";
-        private String passWord = "zhny2020";
+        private String userName = "test";
+        private String passWord = "test";
         private MqttMessage message;
 
         /**
