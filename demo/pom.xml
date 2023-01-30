@@ -108,12 +108,12 @@
                 <artifactId>maven-assembly-plugin</artifactId>
                 <configuration>
                     <descriptorRefs>
-                    <descriptorRef>MQTT</descriptorRef>
+                        <descriptorRef>MQTT</descriptorRef>
                     </descriptorRefs>
                     <archive>
-                            <manifest>
-                                <mainClass>com.luomor.mqtt.ServerMQTT</mainClass>
-                            </manifest>
+                        <manifest>
+                            <mainClass>com.luomor.mqtt.ServerMQTT</mainClass>
+                        </manifest>
                     </archive>
                 </configuration>
                 <executions>
