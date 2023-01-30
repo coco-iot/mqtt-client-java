@@ -19,6 +19,7 @@ nzkhjqcrvnmw0000gp/T/cp_bkm89q7xy8pzckrwx783683sf.jar com.luomor.mqtt.SubscribeS
 ple
 
 /usr/libexec/java_home
+/usr/libexec/java_home -V
 ls /Library/Java/JavaVirtualMachines
 
 Java: Configure Java Runtime
